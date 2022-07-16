@@ -44,6 +44,11 @@ The Aerial Agent consists of a 250mm custom built drone using pixhawk 2.4.8 flig
 
 For autonomous operation, an onboard single board computer is interfaced via the UART port of the flight controller. A Raspberry Pi 3B+, running raspbian stretch, is used as the onboard computer. For remote surveillance and operation, the agent is equipped with a JioFi 4G dongle. A Raspberry PiCam captures the video feed for monitoring, which is then streamed to a forwarded port, to enable remote monitoring. The onboard SBC runs Mavros, which is a ROS wrapper for the MavLink protocol. This enables the agent to be controlled remotely using the SBC. 
 
+
+<div align="center">
+  <img  width="100%" src="drone(1).gif">
+</div>
+
 ## Usage
 
 Make sure you have `Docker` installed on your device by following [these instructions](https://docs.docker.com/install/linux/docker-ce/debian).
