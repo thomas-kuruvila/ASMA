@@ -46,7 +46,7 @@ For autonomous operation, an onboard single board computer is interfaced via the
 
 
 <div align="center">
-  <img  width="100%" src="drone(1).gif">
+  <img  width="100%" src="drone (1).gif">
 </div>
 
 ## Usage
